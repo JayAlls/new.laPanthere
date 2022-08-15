@@ -1548,7 +1548,7 @@ h1,
 h2,
 h3 {
     margin-top: 20px;
-    margin-bottom: 10px
+    margin-bottom: 30px
 }
 
 .h1 .small,
@@ -1608,12 +1608,13 @@ h3 {
 
 .h4,
 h4 {
-    font-size: 18px
+    font-size: 22px
 }
 
 .h5,
 h5 {
-    font-size: 14px
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .h6,
@@ -1985,23 +1986,8 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:768px) {
-    .container {
-        width: 750px
-    }
-}
 
-@media (min-width:992px) {
-    .container {
-        width: 970px
-    }
-}
 
-@media (min-width:1200px) {
-    .container {
-        width: 1170px
-    }
-}
 
 .container-fluid {
     padding-right: 15px;

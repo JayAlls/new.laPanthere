@@ -5,13 +5,16 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100%;
 }
 
-a,
-button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
 a:hover {
     text-decoration: none;
@@ -290,6 +293,7 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    
 }
 
 .navbar-brand {
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -705,12 +709,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 30px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -727,7 +731,11 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: #575757!important;
+}
+
+h5 {
+    font-weight: 700;
 }
 
 .icons {
@@ -809,9 +817,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
