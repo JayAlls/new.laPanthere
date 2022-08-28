@@ -93,9 +93,8 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+.texture-paper::before{
+    background: url("img/texture-paper.webp");
 }
 
 .b-parallax {
@@ -273,6 +272,7 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+    display: flex;
 }
 
 .row-no-gutters {
@@ -681,7 +681,8 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 1.4rem;
+    color: #a2a1a1!important;
 }
 
 .tight-width-whitespace {
@@ -709,15 +710,18 @@ p {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2rem;
     line-height: 1.4em;
+    width: 69%;
+    margin: 20px auto;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    margin-bottom: 10px!important;
 }
 
 .med-width-whitespace {
@@ -725,13 +729,18 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
-
+.text-center {
+    margin: 0 auto;
+    padding: 0;
+}
 h1 {
     color: #333333!important;
 }
 
 h4 {
     color: #575757!important;
+    font-size: 22px;
+    font-style: italic;
 }
 
 h5 {
@@ -739,8 +748,8 @@ h5 {
 }
 
 .icons {
-    margin-bottom: 14px;
-    margin-top: 24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .white {
@@ -749,11 +758,16 @@ h5 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .avatar {
@@ -783,7 +797,7 @@ h5 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
@@ -819,22 +833,19 @@ h5 {
 
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/bg-cta.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
