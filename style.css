@@ -45,6 +45,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    position: relative;
 }
 
 .bloc-lg {
@@ -734,6 +735,13 @@ h3 {
     margin: 0 auto;
     padding: 0;
 }
+
+.text-center h3 {
+    color:#575757!important;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+}
 h1 {
     color: #333333!important;
 }
@@ -1026,6 +1034,7 @@ h5 {
     }
     .voffset-lg {
         margin-top: 30px;
+        flex-direction: column;
     }
     form {
         padding: 5px;
